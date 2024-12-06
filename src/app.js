@@ -3,6 +3,7 @@ import express from 'express';
 const app = express();
 
 let num = 10;
+console.log(num);
 
 app.get('/api/v1/products', (req, res) => {
     res.status(200).json({
